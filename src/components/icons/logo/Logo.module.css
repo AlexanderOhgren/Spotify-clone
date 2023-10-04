@@ -1,0 +1,13 @@
+.logo {
+}
+
+.spotifyLogo {
+    margin-left: -15px;
+    height: 25px;
+    width: 131px;
+    color: white;
+}
+
+.spotifyLogo:hover {
+    transform: scale(1.05);
+}

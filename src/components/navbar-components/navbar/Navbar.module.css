@@ -1,0 +1,64 @@
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 5px;
+}
+
+.sectionOne {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(300deg, rgb(24, 24, 24) 60%, rgb(21, 21, 21));
+    border-radius: 15px;
+    width: 300px;
+    padding: 20px 0 20px 0;
+    gap: 15px;
+}
+
+.sectionOneItems {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background-color:rgb(153, 223, 247);
+    border-radius: 15px;
+    flex-grow: 1;
+    width: 300px;
+    background: linear-gradient(220deg, rgb(24, 24, 24) 30%, rgb(21, 21, 21));
+    padding: 0 0 10px 0;
+}
+
+.languageButton {
+    background-color: rgb(255, 251, 247);
+    color: black;
+    border: none;
+    border-radius: 35px;
+    padding: 0 20px 0 20px;
+
+}
+
+.linkContainer {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.linkContainer p {
+    font-size: 12px;
+}
+
+@media (max-width: 620px) {
+    .sectionOne {
+        width: 100px;
+    }
+    .sectionTwo {
+        width: 100px;
+    }
+}

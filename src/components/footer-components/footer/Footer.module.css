@@ -1,0 +1,24 @@
+.footerContainer {
+    padding: 0 5px 0 5px;
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background: linear-gradient(to left, rgb(70, 161, 236), rgb(221, 45, 207));
+    color: rgb(255, 251, 247);
+    padding: 0 20px 0 10px;
+}
+
+.registerButton {
+    background-color: rgb(255, 251, 247);
+    border-radius: 35px;
+    padding: 0 25px 0 25px;
+    border: none;
+}
+
+.registerButton:hover {
+    transform: scale(1.05);
+}
